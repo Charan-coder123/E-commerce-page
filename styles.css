@@ -17,6 +17,15 @@ h1 {
   line-height: 64px;
   color: #222;
 }
+.charan{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    text-align: end;
+    margin-bottom: 10px;
+    font-size: 13px;
+
+}
 
 h2 {
   font-size: 46px;
@@ -138,11 +147,11 @@ body {
 
 }
 .hero{
-    background-image: url("imges/hero4.png");
-    height: 90vh;
+    background-image: url("imges/back.jpg");
+    height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: top 25% right 0;
+    background-position: center ;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -160,7 +169,7 @@ body {
     background-color: transparent;
     color: #088178;
     border: 0;
-    padding: 14px 80px 14px 65px;
+    padding: 14px 80px 14px 75px;
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
@@ -270,6 +279,9 @@ body {
     padding-top: 7px;
     font-size: 15px ;
     font-weight: 700;
+}
+#product1 .cart{
+    background-color: #041e04;
 }
 #product1 .pro .cart {
     width: 40px;
@@ -967,18 +979,6 @@ footer a:hover{
     color: #088178;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*logo page */
 
 @media (max-width:799px) {
@@ -1000,6 +1000,7 @@ footer a:hover{
         padding: 80px 0 0 10px ;
         transition: 0.3s;
     }
+    
     #navbar.active{
         right: 0px;
     }
@@ -1030,7 +1031,7 @@ footer a:hover{
     .hero {
         height: 70vh;
         padding: 0 80px;
-        background-position: top 30% right 30%;
+        background-position: center;
     }
     #feature {
         justify-content: center;
@@ -1084,6 +1085,7 @@ footer a:hover{
     .header {
         padding: 10px 30px;
     }
+    
     h1 {
         font-size: 38px;
     }
@@ -1145,7 +1147,37 @@ footer a:hover{
         width: 50%;
         
     }
- 
+    #cart-add {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #coupon {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .subtotal {
+        width: 100%;
+        margin-bottom: 30px;
+        border: 1px solid #e2e9e1;
+        padding: 30px;
+    }
+    #login {
+         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: #e3e6f3;
+       
+    }
+    #login h3 {
+        font-size: 23px
+    }
+    .login-code {
+        width: 100%;
+    }
+    
     
 }
 
